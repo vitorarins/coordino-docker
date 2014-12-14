@@ -24,7 +24,7 @@ Start your image binding the external ports 80 and 3306 in all interfaces to you
 
 If you want to persist the data from your MySQL DB inside the docker run it like this:
   
-  docker run -d -p 80:80 -p 3306:3306 -v <your-local-dir>:/var/lib/mysql vitorarins/coordino
+	docker run -d -p 80:80 -p 3306:3306 -v <your-local-dir>:/var/lib/mysql vitorarins/coordino
 
 Test your deployment by going to [localhost](http://localhost/)
 
